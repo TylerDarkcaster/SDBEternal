@@ -1,0 +1,144 @@
+{
+    "type": "create:sequenced_assembly",
+    "ingredient": {
+        "tag": "forge:gems/diamond"
+    },
+    "transitionalItem": {
+        "item": "minecraft:clock",
+        "nbt": "{CustomModelData:29}"
+    },
+    "sequence": [
+        {
+            "type": "create:deploying",
+            "ingredients": [
+                {
+                    "item": "minecraft:clock",
+                    "nbt": "{CustomModelData:29}"
+                },
+                {
+                    "tag": "forge:storage_blocks/steel"
+                }
+            ],
+            "results": [
+                {
+                    "item": "minecraft:clock",
+                    "nbt": "{CustomModelData:29}"
+                }
+            ]
+        },
+        {
+            "type": "create:deploying",
+            "ingredients": [
+                {
+                    "item": "minecraft:clock",
+                    "nbt": "{CustomModelData:29}"
+                },
+                {
+                    "tag": "forge:rods/steel"
+                }
+            ],
+            "results": [
+                {
+                    "item": "minecraft:clock",
+                    "nbt": "{CustomModelData:29}"
+                }
+            ]
+        },
+        {
+            "type": "create:deploying",
+            "ingredients": [
+                {
+                    "item": "minecraft:clock",
+                    "nbt": "{CustomModelData:29}"
+                },
+                {
+                    "tag": "forge:rods/steel"
+                }
+            ],
+            "results": [
+                {
+                    "item": "minecraft:clock",
+                    "nbt": "{CustomModelData:29}"
+                }
+            ]
+        },
+		{
+            "type": "create:deploying",
+            "ingredients": [
+                {
+                    "item": "minecraft:clock",
+                    "nbt": "{CustomModelData:29}"
+                },
+                {
+                    "tag": "forge:dusts/glowstone"
+                }
+            ],
+            "results": [
+                {
+                    "item": "minecraft:clock",
+                    "nbt": "{CustomModelData:29}"
+                }
+            ]
+        },
+		{
+            "type": "create:deploying",
+            "ingredients": [
+                {
+                    "item": "minecraft:clock",
+                    "nbt": "{CustomModelData:29}"
+                },
+                {
+                    "tag": "pneumaticcraft:plastic_sheets"
+                }
+            ],
+            "results": [
+                {
+                    "item": "minecraft:clock",
+                    "nbt": "{CustomModelData:29}"
+                }
+            ]
+        },
+		{
+            "type": "create:deploying",
+            "ingredients": [
+                {
+                    "item": "minecraft:clock",
+                    "nbt": "{CustomModelData:29}"
+                },
+                {
+                    "tag": "forge:storage_blocks/iron"
+                }
+            ],
+            "results": [
+                {
+                    "item": "minecraft:clock",
+                    "nbt": "{CustomModelData:29}"
+                }
+            ]
+        },
+		{
+            "type": "create:deploying",
+            "ingredients": [
+                {
+                    "item": "minecraft:clock",
+                    "nbt": "{CustomModelData:29}"
+                },
+                {
+                    "tag": "forge:storage_blocks/quartz"
+                }
+            ],
+            "results": [
+                {
+                    "item": "minecraft:clock",
+                    "nbt": "{CustomModelData:29}"
+                }
+            ]
+        }
+    ],
+    "results": [
+        {
+            "item": "ava:m202"
+        }
+    ],
+    "loops": 4
+}

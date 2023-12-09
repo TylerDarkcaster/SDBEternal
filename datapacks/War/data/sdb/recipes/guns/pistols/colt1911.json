@@ -1,0 +1,90 @@
+{
+    "type": "create:sequenced_assembly",
+    "ingredient": {
+        "tag": "forge:storage_blocks/iron"
+    },
+    "transitionalItem": {
+        "item": "minecraft:clock",
+        "nbt": "{CustomModelData:2}"
+    },
+    "sequence": [
+        {
+            "type": "create:deploying",
+            "ingredients": [
+                {
+                    "item": "minecraft:clock",
+                    "nbt": "{CustomModelData:2}"
+                },
+                {
+                    "tag": "forge:ingots/steel"
+                }
+            ],
+            "results": [
+                {
+                    "item": "minecraft:clock",
+                    "nbt": "{CustomModelData:2}"
+                }
+            ]
+        },
+        {
+            "type": "create:deploying",
+            "ingredients": [
+                {
+                    "item": "minecraft:clock",
+                    "nbt": "{CustomModelData:2}"
+                },
+                {
+                    "tag": "forge:plates/steel"
+                }
+            ],
+            "results": [
+                {
+                    "item": "minecraft:clock",
+                    "nbt": "{CustomModelData:2}"
+                }
+            ]
+        },
+        {
+            "type": "create:deploying",
+            "ingredients": [
+                {
+                    "item": "minecraft:clock",
+                    "nbt": "{CustomModelData:2}"
+                },
+                {
+                    "tag": "forge:plates/steel"
+                }
+            ],
+            "results": [
+                {
+                    "item": "minecraft:clock",
+                    "nbt": "{CustomModelData:2}"
+                }
+            ]
+        },
+		{
+            "type": "create:deploying",
+            "ingredients": [
+                {
+                    "item": "minecraft:clock",
+                    "nbt": "{CustomModelData:2}"
+                },
+                {
+                    "tag": "forge:rods/steel"
+                }
+            ],
+            "results": [
+                {
+                    "item": "minecraft:clock",
+                    "nbt": "{CustomModelData:2}"
+                }
+            ]
+        }
+    ],
+    "results": [
+        {
+            "item": "ava:sw1911_colt"
+        }
+    ],
+    "loops": 3
+}

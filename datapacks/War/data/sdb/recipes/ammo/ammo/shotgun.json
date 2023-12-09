@@ -1,0 +1,90 @@
+{
+    "type": "create:sequenced_assembly",
+    "ingredient": {
+        "tag": "forge:clay"
+    },
+    "transitionalItem": {
+        "item": "minecraft:clock",
+        "nbt": "{CustomModelData:104}"
+    },
+    "sequence": [
+        {
+            "type": "create:deploying",
+            "ingredients": [
+                {
+                    "item": "minecraft:clock",
+                    "nbt": "{CustomModelData:104}"
+                },
+                {
+                    "tag": "forge:gunpowder"
+                }
+            ],
+            "results": [
+                {
+                    "item": "minecraft:clock",
+                    "nbt": "{CustomModelData:104}"
+                }
+            ]
+        },
+		{
+            "type": "create:deploying",
+            "ingredients": [
+                {
+                    "item": "minecraft:clock",
+                    "nbt": "{CustomModelData:104}"
+                },
+                {
+                    "tag": "forge:nuggets/iron"
+                }
+            ],
+            "results": [
+                {
+                    "item": "minecraft:clock",
+                    "nbt": "{CustomModelData:104}"
+                }
+            ]
+        },
+		{
+            "type": "create:deploying",
+            "ingredients": [
+                {
+                    "item": "minecraft:clock",
+                    "nbt": "{CustomModelData:104}"
+                },
+                {
+                    "tag": "forge:nuggets/iron"
+                }
+            ],
+            "results": [
+                {
+                    "item": "minecraft:clock",
+                    "nbt": "{CustomModelData:104}"
+                }
+            ]
+        },
+		{
+            "type": "create:deploying",
+            "ingredients": [
+                {
+                    "item": "minecraft:clock",
+                    "nbt": "{CustomModelData:104}"
+                },
+                {
+                    "tag": "forge:nuggets/iron"
+                }
+            ],
+            "results": [
+                {
+                    "item": "minecraft:clock",
+                    "nbt": "{CustomModelData:104}"
+                }
+            ]
+        }
+    ],
+    "results": [
+        {
+            "item": "ava:shotgun_ammo"
+        }
+    ],
+    "loops": 1
+}

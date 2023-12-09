@@ -1,0 +1,126 @@
+{
+    "type": "create:sequenced_assembly",
+    "ingredient": {
+        "item": "immersiveengineering:steel_scaffolding_standard"
+    },
+    "transitionalItem": {
+        "item": "minecraft:clock",
+        "nbt": "{CustomModelData:15}"
+    },
+    "sequence": [
+        {
+            "type": "create:deploying",
+            "ingredients": [
+                {
+                    "item": "minecraft:clock",
+                    "nbt": "{CustomModelData:15}"
+                },
+                {
+                    "tag": "forge:ingots/gold"
+                }
+            ],
+            "results": [
+                {
+                    "item": "minecraft:clock",
+                    "nbt": "{CustomModelData:15}"
+                }
+            ]
+        },
+        {
+            "type": "create:deploying",
+            "ingredients": [
+                {
+                    "item": "minecraft:clock",
+                    "nbt": "{CustomModelData:15}"
+                },
+                {
+                    "tag": "forge:dusts/redstone"
+                }
+            ],
+            "results": [
+                {
+                    "item": "minecraft:clock",
+                    "nbt": "{CustomModelData:15}"
+                }
+            ]
+        },
+        {
+            "type": "create:deploying",
+            "ingredients": [
+                {
+                    "item": "minecraft:clock",
+                    "nbt": "{CustomModelData:15}"
+                },
+                {
+                    "tag": "forge:storage_blocks/steel"
+                }
+            ],
+            "results": [
+                {
+                    "item": "minecraft:clock",
+                    "nbt": "{CustomModelData:15}"
+                }
+            ]
+        },
+		{
+            "type": "create:deploying",
+            "ingredients": [
+                {
+                    "item": "minecraft:clock",
+                    "nbt": "{CustomModelData:15}"
+                },
+                {
+                    "tag": "forge:plates/steel"
+                }
+            ],
+            "results": [
+                {
+                    "item": "minecraft:clock",
+                    "nbt": "{CustomModelData:15}"
+                }
+            ]
+        },
+		{
+            "type": "create:deploying",
+            "ingredients": [
+                {
+                    "item": "minecraft:clock",
+                    "nbt": "{CustomModelData:15}"
+                },
+                {
+                    "tag": "forge:rods/steel"
+                }
+            ],
+            "results": [
+                {
+                    "item": "minecraft:clock",
+                    "nbt": "{CustomModelData:15}"
+                }
+            ]
+        },
+		{
+            "type": "create:deploying",
+            "ingredients": [
+                {
+                    "item": "minecraft:clock",
+                    "nbt": "{CustomModelData:15}"
+                },
+                {
+                    "tag": "pneumaticcraft:plastic_sheets"
+                }
+            ],
+            "results": [
+                {
+                    "item": "minecraft:clock",
+                    "nbt": "{CustomModelData:15}"
+                }
+            ]
+        }
+    ],
+    "results": [
+        {
+            "item": "ava:x95r"
+        }
+    ],
+    "loops": 3
+}

@@ -1,0 +1,72 @@
+{
+    "type": "create:sequenced_assembly",
+    "ingredient": {
+        "item": "create:brass_nugget"
+    },
+    "transitionalItem": {
+        "item": "minecraft:clock",
+        "nbt": "{CustomModelData:100}"
+    },
+    "sequence": [
+        {
+            "type": "create:deploying",
+            "ingredients": [
+                {
+                    "item": "minecraft:clock",
+                    "nbt": "{CustomModelData:100}"
+                },
+                {
+                    "tag": "forge:nuggets/lead"
+                }
+            ],
+            "results": [
+                {
+                    "item": "minecraft:clock",
+                    "nbt": "{CustomModelData:100}"
+                }
+            ]
+        },
+        {
+            "type": "create:deploying",
+            "ingredients": [
+                {
+                    "item": "minecraft:clock",
+                    "nbt": "{CustomModelData:100}"
+                },
+                {
+                    "tag": "forge:gunpowder"
+                }
+            ],
+            "results": [
+                {
+                    "item": "minecraft:clock",
+                    "nbt": "{CustomModelData:100}"
+                }
+            ]
+        },
+        {
+            "type": "create:deploying",
+            "ingredients": [
+                {
+                    "item": "minecraft:clock",
+                    "nbt": "{CustomModelData:100}"
+                },
+                {
+                    "tag": "forge:nuggets/copper"
+                }
+            ],
+            "results": [
+                {
+                    "item": "minecraft:clock",
+                    "nbt": "{CustomModelData:100}"
+                }
+            ]
+        }
+    ],
+    "results": [
+        {
+            "item": "ava:pistol_ammo"
+        }
+    ],
+    "loops": 1
+}

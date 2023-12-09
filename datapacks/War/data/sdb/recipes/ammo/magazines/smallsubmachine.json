@@ -1,0 +1,36 @@
+{
+    "type": "create:sequenced_assembly",
+    "ingredient": {
+        "tag": "forge:ingots/steel"
+    },
+    "transitionalItem": {
+        "item": "minecraft:clock",
+        "nbt": "{CustomModelData:100}"
+    },
+    "sequence": [
+		{
+            "type": "create:deploying",
+            "ingredients": [
+                {
+                    "item": "minecraft:clock",
+                    "nbt": "{CustomModelData:101}"
+                },
+                {
+                    "item": "ava:pistol_ammo"
+                }
+            ],
+            "results": [
+                {
+                    "item": "minecraft:clock",
+                    "nbt": "{CustomModelData:101}"
+                }
+            ]
+        }
+    ],
+    "results": [
+        {
+            "item": "ava:small_sub_machinegun_magazine"
+        }
+    ],
+    "loops": 20
+}

@@ -1,0 +1,1 @@
+kill @e[type=ava:ammo_kit]

@@ -1,0 +1,19 @@
+{
+    "type": "create:crushing",
+    "ingredients": [
+      {
+        "item": "minecraft:sandstone"
+      }
+    ],
+    "results": [
+      {
+        "item": "minecraft:sand",
+        "count": 2
+      },
+      {
+        "item": "minecraft:flint",
+        "chance": 0.3
+      }
+    ],
+    "processingTime": 250
+  }
